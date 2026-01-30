@@ -1,0 +1,5 @@
+{
+  "name": "Generator PENILAIAN PJOK SD SUNGAISELAN",
+  "description": "Aplikasi generator rencana penilaian terstruktur (Diagnostik, Formatif, Sumatif) untuk mata pelajaran PJOK tingkat SD, siap ekspor ke Microsoft Word/Google Docs.",
+  "requestFramePermissions": []
+}
