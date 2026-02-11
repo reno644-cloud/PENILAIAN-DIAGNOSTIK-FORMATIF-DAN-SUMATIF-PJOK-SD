@@ -36,7 +36,7 @@ const App: React.FC = () => {
              </div>
              <div>
                <h1 className="text-xl font-bold text-white tracking-tight leading-none">Generator PENILAIAN SD</h1>
-               <p className="text-xs text-slate-400 font-medium tracking-wide">SD SUNGAISELAN</p>
+               <p className="text-xs text-slate-400 font-medium tracking-wide">( RPPM )</p>
              </div>
           </div>
           <div className="text-xs font-semibold px-3 py-1 bg-slate-700 text-blue-300 rounded-full border border-slate-600 hidden sm:block">
@@ -108,7 +108,7 @@ const App: React.FC = () => {
       {/* Footer */}
       <footer className="bg-slate-800 border-t border-slate-700 py-6 mt-auto">
         <div className="max-w-7xl mx-auto px-4 text-center text-slate-500 text-sm">
-          <p>© {new Date().getFullYear()} SD SUNGAISELAN - Generator Penilaian PJOK.</p>
+          <p>© {new Date().getFullYear()} ( RPPM ) - Generator Penilaian PJOK.</p>
         </div>
       </footer>
     </div>

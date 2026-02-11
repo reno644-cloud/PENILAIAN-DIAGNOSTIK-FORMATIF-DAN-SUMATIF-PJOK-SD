@@ -53,7 +53,7 @@ const InputForm: React.FC<InputFormProps> = ({ onSubmit, loadingState }) => {
     <div className="bg-slate-800 p-6 rounded-xl shadow-lg border border-slate-700">
       <h2 className="text-xl font-bold text-white mb-4 flex items-center gap-2">
         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-primary"><path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"/><path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z"/></svg>
-        PENILAIAN PJOK_SD_SUNGAISELAN
+        PENILAIAN PJOK_SD ( RPPM )
       </h2>
       <form onSubmit={handleSubmit} className="space-y-4">
         
@@ -71,7 +71,7 @@ const InputForm: React.FC<InputFormProps> = ({ onSubmit, loadingState }) => {
               name="namaSekolah"
               value={formData.namaSekolah}
               onChange={handleChange}
-              placeholder="Contoh: SD SUNGAISELAN"
+              placeholder="Contoh: SD NEGERI 1..."
               className={`w-full px-4 py-2 rounded-lg bg-slate-700 border text-white placeholder-slate-500 focus:ring-2 focus:ring-primary focus:border-primary outline-none transition-all ${errors.namaSekolah ? 'border-red-500 bg-red-900/10' : 'border-slate-600'}`}
               disabled={isLoading}
             />
